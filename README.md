@@ -23,22 +23,22 @@ This project is built as per the given assignment specifications and follows pro
 
 sales-analytics-system/
 │
-├── main.py
-├── README.md
-├── requirements.txt
-│
-├── data/
-│ ├── sales_data.txt
-│ └── enriched_sales_data.txt
-│
-├── output/
-│ └── sales_report.txt
-│
-└── utils/
-├── file_handler.py
+├── main.py   
+├── README.md                   
+├── requirements.txt              
+│                       
+├── data/                          
+│ ├── sales_data.txt           
+│ └── enriched_sales_data.txt           
+│           
+├── output/           
+│ └── sales_report.txt           
+│                                               
+└── utils/          
+├── file_handler.py                       
 ├── data_processor.py
-└── api_handler.py
-
+└── api_handler.py          
+         
 yaml
 Copy code
 
@@ -47,7 +47,7 @@ Copy code
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/sales-analytics-system
+git clone         https://github.com/<your-username>/sales-analytics-system
 cd sales-analytics-system
 2️⃣ Install Dependencies
 bash
