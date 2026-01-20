@@ -1,3 +1,6 @@
+from datetime import datetime
+from collections import defaultdict
+
 def generate_sales_report(transactions, enriched_transactions, output_file='output/sales_report.txt'):
     """
     Generates a comprehensive formatted text report
