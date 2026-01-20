@@ -11,13 +11,13 @@ A Python-based sales analytics system built as part of Masai Module 3 assignment
 - API integration support
 
 ## Folder Structure
-sales-analytics-system/
-├── main.py
-├── utils/
-├── data/
-├── output/
-├── README.md
-└── requirements.txt
+sales-analytics-system/    
+├── main.py                      
+├── utils/               
+├── data/             
+├── output/                   
+├── README.md                 
+└── requirements.txt                   
 
 ## Expected Output
 Total records parsed: 80  
