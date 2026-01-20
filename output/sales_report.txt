@@ -1,0 +1,67 @@
+def generate_sales_report(transactions, enriched_transactions, output_file='output/sales_report.txt'):
+    """
+    Generates a comprehensive formatted text report
+
+    Report Must Include (in this order):
+
+    1. HEADER
+       - Report title
+       - Generation date and time
+       - Total records processed
+
+    2. OVERALL SUMMARY
+       - Total Revenue (formatted with commas)
+       - Total Transactions
+       - Average Order Value
+       - Date Range of data
+
+    3. REGION-WISE PERFORMANCE
+       - Table showing each region with:
+         * Total Sales Amount
+         * Percentage of Total
+         * Transaction Count
+       - Sorted by sales amount descending
+
+    4. TOP 5 PRODUCTS
+       - Table with columns: Rank, Product Name, Quantity Sold, Revenue
+
+    5. TOP 5 CUSTOMERS
+       - Table with columns: Rank, Customer ID, Total Spent, Order Count
+
+    6. DAILY SALES TREND
+       - Table showing: Date, Revenue, Transactions, Unique Customers
+
+    7. PRODUCT PERFORMANCE ANALYSIS
+       - Best selling day
+       - Low performing products (if any)
+       - Average transaction value per region
+
+    8. API ENRICHMENT SUMMARY
+       - Total products enriched
+       - Success rate percentage
+       - List of products that couldn't be enriched
+
+    Expected Output Format (sample):
+    ============================================
+           SALES ANALYTICS REPORT
+         Generated: 2024-12-18 14:30:22
+         Records Processed: 95
+    ============================================
+
+    OVERALL SUMMARY
+    --------------------------------------------
+    Total Revenue:        ₹15,45,000.00
+    Total Transactions:   95
+    Average Order Value:  ₹16,263.16
+    Date Range:           2024-12-01 to 2024-12-31
+
+    REGION-WISE PERFORMANCE
+    --------------------------------------------
+    Region    Sales         % of Total  Transactions
+    North     ₹4,50,000     29.13%      25
+    South     ₹3,80,000     24.60%      22
+    ...
+
+    (continue with all sections...)
+    """
+
