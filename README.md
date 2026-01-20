@@ -23,6 +23,17 @@ sales-analytics-system/
 Total records parsed: 80  
 Invalid records removed: 10  
 Valid records after cleaning: 70
+# Sales Analytics System
+
+## Setup
+pip install -r requirements.txt
+
+## Run
+python main.py
+
+## Output
+- data/enriched_sales_data.txt
+- output/sales_report.txt
 
 ## Author
-Arjun Ramprasad
+Anirudh R
